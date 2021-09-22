@@ -8,6 +8,6 @@ metadata:
 spec:
   containers:
   - name: result-pod
-    image: docker/example-voting-app-result
+    image: dockersamples/examplevotingapp_result
     ports:
       - containerPort: 80
